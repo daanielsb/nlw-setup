@@ -24,7 +24,6 @@ NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de 
 
 ## 🚀 Tecnologias
 
-O habit é um app pra ajudar a rastrear os hábitos
 
 - HTML e CSS
 - JavaScript
@@ -33,7 +32,8 @@ O habit é um app pra ajudar a rastrear os hábitos
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O habits é um app pra ajudar a rastrear os hábitos
+- [Visite o projeto Online] (https://daanielsb.github.io/nlw-setup)
 
 
 ## 🔖 Layout
