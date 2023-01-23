@@ -24,9 +24,9 @@ function add(){
 function add2(){    
 
     var input = document.querySelector('header input')
-    var texto = input.value
+    var texto = new Date(`${input.value}T04:00:00.000Z`);
 
-    const outradata = new Date(texto).toLocaleDateString('pt-BR').slice(0,-5)
+    const outradata = texto.toLocaleDateString('pt-BR').slice(0, -5);
     const dayExists = nlwSetup.dayExists(outradata)
 
     if (dayExists){
@@ -52,7 +52,7 @@ nlwSetup.setData(data)
 nlwSetup.load()
 
 
-console.log(new Date(texto))
+
 
 
 
